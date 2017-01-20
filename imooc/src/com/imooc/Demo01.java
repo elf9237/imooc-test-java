@@ -18,7 +18,7 @@ import java.util.Scanner;
 public class Demo01 {
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in); //创建Scanner对象
-//		print和println区别：println输出信息后换行，而print不会换行
+		//print和println区别：println输出信息后换行，而print不会换行
 		System.out.print("请输入考试成绩信息：");
 		int score = input.nextInt();//获取用户输入的成绩并保存在变量中 
 		//如果输入的是非整数数据, 将会 抛出 InputMismatchException 异常

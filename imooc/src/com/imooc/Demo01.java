@@ -31,7 +31,7 @@ public class Demo01 {
 		//nextLong()  输入一个long型的 数据, 
 		int count = 0;
 		System.out.println("加分前的成绩: "+ score);
-		while(score<60){
+		while(score<=60){
 			score++;
 			count++;
 		}

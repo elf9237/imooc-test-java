@@ -22,5 +22,6 @@ public class Demo02 {
 			avg =sum/stuNum;//计算平均分
 			System.out.println("第"+i+"个班级学生的平均分： "+avg);
 		};
+		input.close();
 	};
 }

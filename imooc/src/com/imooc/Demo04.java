@@ -1,7 +1,7 @@
 package com.imooc;
 //导入Arrays类
 //类的对象实例化调用类中的方法
-import java.util.Arrays;
+
 
 public class Demo04 {
     

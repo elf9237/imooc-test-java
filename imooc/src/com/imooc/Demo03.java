@@ -1,7 +1,7 @@
 package com.imooc;
-//导入Arrays类
+
 //二维数组的使用
-import java.util.Arrays;
+
 
 public class Demo03 {
     

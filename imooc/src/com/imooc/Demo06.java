@@ -1,3 +1,4 @@
+package com.imooc;
 import java.util.Arrays;
 
 public class Demo06 {
@@ -6,7 +7,7 @@ public class Demo06 {
 		int[] scores={79,52,98,81};
         
 		//调用方法，传入成绩数组，并获取成绩的个数
-		int count=
+		int count= hello.sort(scores);
         
 		System.out.println("共有"+count+"个成绩信息！");
 	}
@@ -17,7 +18,7 @@ public class Demo06 {
 	 * 使用Arrays类对成绩数组进行排序并输出
 	 * 方法执行后返回数组中元素的个数
 	 */
-	public int sort( Arrays scores ){
+	public int sort( int scores[] ){
 		Arrays.sort(scores);
 		System.out.println(Arrays.toString(scores));
 		

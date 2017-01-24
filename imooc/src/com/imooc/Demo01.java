@@ -37,6 +37,7 @@ public class Demo01 {
 		}
 		System.out.println("加分后的成绩： "+ score);
 		System.out.println("一共加分 "+ count +"次!");
+		input.close();
 	}
 	
 }
